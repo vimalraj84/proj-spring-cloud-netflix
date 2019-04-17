@@ -9,7 +9,7 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.vimal</groupId>
+	<groupId>com.bilqu</groupId>
 	<artifactId>ms-wage-service</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>ms-wage-service</name>
