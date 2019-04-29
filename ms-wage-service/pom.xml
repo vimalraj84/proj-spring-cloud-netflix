@@ -20,6 +20,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
+		
+      	<!-- The main class to start by executing "java -jar" -->
+      	<start-class>com.bilqu.wage.MsWageServiceApplication</start-class>
 	</properties>
 
 	<dependencies>
@@ -70,6 +73,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>    
+                	<mainClass>com.bilqu.wage.MsWageServiceApplication</mainClass>
+            	</configuration>
 			</plugin>
 		</plugins>
 	</build>
